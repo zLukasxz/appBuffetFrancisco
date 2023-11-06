@@ -37,7 +37,7 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            lbl_totalfinal = new Label();
+            lbl_TotalFinal = new Label();
             label10 = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -131,16 +131,16 @@
             label8.TabIndex = 7;
             label8.Text = "TOTAL:";
             // 
-            // lbl_totalfinal
+            // lbl_TotalFinal
             // 
-            lbl_totalfinal.AutoSize = true;
-            lbl_totalfinal.Font = new Font("Louis George Cafe", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_totalfinal.ForeColor = SystemColors.InfoText;
-            lbl_totalfinal.Location = new Point(415, 250);
-            lbl_totalfinal.Name = "lbl_totalfinal";
-            lbl_totalfinal.Size = new Size(105, 23);
-            lbl_totalfinal.TabIndex = 8;
-            lbl_totalfinal.Text = "R$: 00,00";
+            lbl_TotalFinal.AutoSize = true;
+            lbl_TotalFinal.Font = new Font("Louis George Cafe", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_TotalFinal.ForeColor = SystemColors.InfoText;
+            lbl_TotalFinal.Location = new Point(415, 250);
+            lbl_TotalFinal.Name = "lbl_TotalFinal";
+            lbl_TotalFinal.Size = new Size(105, 23);
+            lbl_TotalFinal.TabIndex = 8;
+            lbl_TotalFinal.Text = "R$: 00,00";
             // 
             // label10
             // 
@@ -172,7 +172,7 @@
             ClientSize = new Size(800, 334);
             Controls.Add(pictureBox1);
             Controls.Add(label10);
-            Controls.Add(lbl_totalfinal);
+            Controls.Add(lbl_TotalFinal);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -201,7 +201,7 @@
         private Label label6;
         private Label label7;
         private Label label8;
-        private Label lbl_totalfinal;
+        private Label lbl_TotalFinal;
         private Label label10;
         private PictureBox pictureBox1;
     }

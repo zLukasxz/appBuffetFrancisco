@@ -14,6 +14,7 @@ namespace appBuffetFrancisco.View
     {
         int totalfinal = 0;
 
+
         public PDVTela()
         {
             InitializeComponent();
@@ -95,9 +96,9 @@ namespace appBuffetFrancisco.View
         private void btn_Receber_Click(object sender, EventArgs e)
         {
             this.Hide();
-            TelaFecharVenda fiscal = new TelaFecharVenda();
-            fiscal.FormClosed += (s, args) => this.Close();
-            fiscal.Show();
+            TelaFecharVenda telaFecharVenda = new TelaFecharVenda(totalfinal);
+            telaFecharVenda.FormClosed += (s, args) => this.Close();
+            telaFecharVenda.Show();
         }
     }
 }

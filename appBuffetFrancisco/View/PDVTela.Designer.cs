@@ -366,7 +366,6 @@
         private Button btn_Cancelar;
         private Button btn_Receber;
         private Label lbl_ValorTotal;
-        private Label lbl_Valor;
         private Label lbl_Codigo;
         private Label lbl_Qtde;
         private NumericUpDown nud_Qtd;
@@ -379,5 +378,6 @@
         private DataGridViewTextBoxColumn Total;
         private Button btn_Adicionar;
         private Button btn_Limpar;
+        public Label lbl_Valor;
     }
 }
