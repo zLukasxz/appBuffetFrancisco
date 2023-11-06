@@ -22,6 +22,7 @@ namespace appBuffetFrancisco.View
 
         private void TelaFecharVenda_Load(object sender, EventArgs e)
         {
+
             lbl_data.Text = DateTime.Now.ToString("dd/MM/yyyy");
             lbl_TotalFinal.Text = "R$" + totalfinal.ToString() + ",00";
         }
